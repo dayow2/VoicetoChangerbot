@@ -1,0 +1,9 @@
+python-telegram-bot==20.7
+Flask==3.0.0
+pydub==0.25.1
+pedalboard==0.9.4
+numpy==1.24.3
+librosa==0.10.1
+soundfile==0.12.1
+scipy==1.11.4
+ffmpeg-python==0.2.0
