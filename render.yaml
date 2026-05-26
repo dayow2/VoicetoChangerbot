@@ -1,0 +1,13 @@
+services:
+  - type: web
+    name: voicetochangerbot
+    runtime: python
+    repo: https://github.com/YOUR_USERNAME/VoicetoChangerbot
+    plan: free
+    envVars:
+      - key: TELEGRAM_TOKEN
+        sync: false
+      - key: RENDER
+        value: true
+    buildCommand: pip install -r requirements.txt
+    startCommand: python app.py
